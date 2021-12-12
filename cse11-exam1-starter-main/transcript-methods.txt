@@ -1,0 +1,13 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesMethods:
+---------------------------
+ExamplesMethods:
+---------------
+new ExamplesMethods:1(
+ this.area1 = 9.42477796076938
+ this.area2 = 235.61944901923448
+ this.rotate1 = "aaa"
+ this.rotate2 = "loHel")
+---------------
+No test methods found.

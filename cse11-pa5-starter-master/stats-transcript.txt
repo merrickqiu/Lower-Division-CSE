@@ -1,0 +1,48 @@
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> javac Stats.java
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --product 2 3 4
+24.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --product 2
+2.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --product 2 3 5 7 11
+2310.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --product 1 -1 1 -1 1 -1
+-1.0
+
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --mean 5 9 7     
+7.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --mean 2
+2.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --mean 2 3 5 7 11
+5.6
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --mean 1 -1 1 -1 1 -1
+0.0
+
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --total 1 9 4        
+14.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --total 2    
+2.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --total 2 3 5 7 11
+28.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --total 1 -1 1 -1 1 -1
+0.0
+
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --max 9 1 4 0
+9.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --max 2      
+2.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --max 2 3 5 7 11
+11.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --max 1 -1 1 -1 1 -1
+1.0
+
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --min 9 1 4 0       
+0.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --min 2      
+2.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --min 2 3 5 7 11
+2.0
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --min 1 -1 1 -1 1 -1
+-1.0
+
+PS C:\Users\merri\Desktop\CSE 11\cse11-pa5-starter-master> java Stats --mix 3 4 5
+Bad option --mix

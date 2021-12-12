@@ -1,0 +1,16 @@
+I tested WordFilter on the example command-line arguments
+
+PS C:\Users\merri\Desktop\CSE 11\Exam2-starter-main> javac WordFilter.java
+PS C:\Users\merri\Desktop\CSE 11\Exam2-starter-main> java WordFilter an apple banana panama orangutan pizza
+banana
+panama
+orangutan
+PS C:\Users\merri\Desktop\CSE 11\Exam2-starter-main> java WordFilter not-a-substring apple banana panama   
+0 words contained "not-a-substring"
+PS C:\Users\merri\Desktop\CSE 11\Exam2-starter-main> java WordFilter app apple banana app panama orangutan pizza
+apple
+app
+PS C:\Users\merri\Desktop\CSE 11\Exam2-starter-main> java WordFilter
+Provide at least one command-line argument
+PS C:\Users\merri\Desktop\CSE 11\Exam2-starter-main> java WordFilter something
+0 words contained "something"

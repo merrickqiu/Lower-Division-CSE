@@ -1,0 +1,35 @@
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesNumbers:
+---------------------------
+ExamplesNumbers:
+--------------- 
+new ExamplesNumbers:1(
+ this.n1 = new WholeNumber:2(
+  this.n = 5)
+ this.n2 = new WholeNumber:3(
+  this.n = 7)
+ this.n3 = new Fraction:4(
+  this.n = 7
+  this.d = 2)
+ this.n4 = new Fraction:5(
+  this.n = 1
+  this.d = 2)
+ this.oneTenth = new Fraction:6(
+  this.n = 1
+  this.d = 10)
+ this.twoTenths = new Fraction:7(
+  this.n = 2
+  this.d = 10)
+ this.threeTenths = new Fraction:8(
+  this.n = 3
+  this.d = 10)
+ this.test1 = 0.6000000000000001
+ this.test2 = 0.6
+ this.test3 = "600/1000"
+---------------
+
+Ran 12 tests.
+All tests passed.
+
+--- END OF TEST RESULTS ---
